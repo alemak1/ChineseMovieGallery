@@ -1,0 +1,32 @@
+
+h1{
+	margin-top: 3em;
+	text-align: center;
+
+}
+
+#title-search{
+	margin-top: 3em;
+}
+
+
+#movie-container{
+	margin: 0 auto;
+}
+
+@media (max-width: 560px){
+	#my-navbar{
+		display: none;
+	}
+}
+
+@media (min-width: 560px){
+	#my-navbar-container select{
+		display:none;
+	}
+}
+
+.movie-element{
+	background-color: orange;
+}
+
